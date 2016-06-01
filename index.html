@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>  <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="es">  <![endif]-->
+<!--[if IE 7]>     <html class="no-js lt-ie9 lt-ie8" lang="es">         <![endif]-->
+<!--[if IE 8]>     <html class="no-js lt-ie9" lang="es">                <![endif]-->
+<!--[if IE 9]>     <html class="no-js ie9" lang="es">                   <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>|_^_^_| tip off</title>
+
+        <meta name="copyright" content="&copy; 2016 Mamutlove">
+        <meta name="description" content="Tip off. A simple modal box writen with #CSS. No #JavaScript is required. No pretentions, just for fun">
+        <meta name="keywords" content="CSS, No JavaScript, tip off">
+        <meta name="robots" content="follow, all">
+        <meta http-equiv="author" content="@alejandro_mur">
+
+        <meta property="twitter:card" content="Tip off. A simple modal box writen with #CSS">
+        <meta property="twitter:url" content="http://www.mamutlove.es/projects/tip-off/">
+        <meta property="twitter:title" content="Tip off. A simple CSS helper for neat global HTML message">
+        <meta property="twitter:description" content="Tip off. A simple CSS helper for neat global HTML message. No JavaScript.">
+        <meta property="twitter:image" content="http://www.mamutlove.es/img/logo-mamutlove.jpg" />
+        <meta property="twitter:site" content="@Mamutlove">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+
+        <header class="header">
+            <h1>WHATEVER HEADER</h1>
+        </header>
+        <main class="content cf">
+            <aside class="aside">
+                <h3>Tip off</h3>
+                <p>At the very bottom of the #HTML before body ends, there is the modal lightbox. This box is an &lt;a&gt; element that has nothing inside and it is not shown unless it matches your conditions.</p>
+                <p>Along projects and responsive, mobile first, content first, human first thoughts come into play I fight with some scenarios where the navigation on small devices is better for the users when they handle theirs devices in portrait mode. Here is were tip-off is very handy because it lets you to show a little message to the user and close it easily, with no Javascript, just with few lines of CSS.</p>
+                <h3>Demo</h3>
+                <p>To see it in action just resize the browser to fit the height of the browser between 160px - 400px</p>
+                <h3>Advanced tip</h3>
+                <p>The power of this modal box is based in the pseudo element :target. However eventually the href attribute could broke your URL when the modal box is clicked. In those situations you must find a solution like this href="< ?php echo $_SERVER['REQUEST_URI'].'#close'; ?>"</p>
+                <h3>Final thoughts</h3>
+                <p>Please, take this demo as it is, a little demo where I pretend to show to you the power of this snippet, but consider your own target before copy/paste.</p>
+            </aside>
+            <section class="container">
+                <h2>Stop Global Warming</h2>
+                <img src="http://www.mamutlove.es/img/stopGlobalWarming.jpg" alt="Stop Global Warming" width="920" height="350">
+                <h2>Tomtom</h2>
+                <img src="http://www.mamutlove.es/img/tomtom-grafica.gif" alt="Tomtom" width="920" height="350">
+                <h2>Smint</h2>
+                <img src="http://www.mamutlove.es/img/smint-grafica.gif" alt="Smint" width="920" height="350">
+                <h2>Spontex</h2>
+                <img src="http://www.mamutlove.es/img/spontex-grafica.gif" alt="Spontex" width="920" height="350">
+                <h2>República Dominicana</h2>
+                <img src="http://www.mamutlove.es/img/republica-dominicana-logo.gif" alt="República Dominicana" width="920" height="350">
+                <h2>Mamutlove</h2>
+                <img src="http://www.mamutlove.es/img/mamut-love-logo.jpg" alt="Mamut Love says Stop Global Warming" width="920" height="350">
+            </section>
+        </main>
+        <footer class="footer">
+            <h5>WHATEVER FOOTER - All the images use in this page are owned by Mamut Love - <a href="mailto:hola@mamutlove.es">hola@mamutlove.es</a></h5>
+        </footer>
+
+        <!-- TIP OFF -->
+        <!-- <a class="tip-off" href="<?php echo $_SERVER['REQUEST_URI'].'#close'; ?>" id="close"></a> -->
+        <a class="tip-off" href="#close" id="close"></a>
+
+    </body>
+</html>
