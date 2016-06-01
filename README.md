@@ -13,7 +13,7 @@
 <h2>Usage</h2>
 <p>• Download or fork the repository.</p>
 <p>• Include CSS file in your HTML.</p>
-<p>• Customize or change the CSS files.</p>
+<p>• Customize or change the CSS file or the MESSAGE within the .tip-off pseudo element ::before.</p>
 
 <h2>Final thoughts</h2>
 <p>Please, take this <a href="http://www.mamutlove.es/projects/tip-off/" title="Demo" target="_blank">demo</a> as it is, a little demo where I pretend to show to you the power of this snippet, but consider your own target before copy/paste.</p>
