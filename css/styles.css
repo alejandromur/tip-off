@@ -86,7 +86,7 @@ img {
         position: fixed;
         cursor: pointer; }
     .tip-off::before {
-        content: "Para una navegación más sencilla te recomendamos usar tu dispositivo en vertical";
+        content: attr(data-message);
         width: 80%;
         height: auto;
         top: 50%;
