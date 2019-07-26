@@ -5,7 +5,7 @@
 
 <h2>Demo</h2>
 <p>To see it in action just resize the browser to fit the height of the browser between 160px - 400px</p>
-<p><a href="http://www.mamutlove.es/projects/tip-off/" title="Demo" target="_blank">Demo</a></p>
+<p><a href="https://www.mamutlove.com/projects/tip-off/" title="Demo" target="_blank">Demo</a></p>
 
 <h2>Advanced tip</h2>
 <p>The power of this modal box is based in the pseudo element :target. However eventually the href attribute could broke your URL when the modal box is clicked. In those situations you must find a solution like this href="< ?php echo $_SERVER['REQUEST_URI'].'#close'; ?>"</p>
@@ -16,7 +16,7 @@
 <p>• Customize or change the CSS file or the MESSAGE within the .tip-off pseudo element ::before.</p>
 
 <h2>Final thoughts</h2>
-<p>Please, take this <a href="http://www.mamutlove.es/projects/tip-off/" title="Demo" target="_blank">demo</a> as it is, a little demo where I pretend to show to you the power of this snippet, but consider your own target before copy/paste.</p>
+<p>Please, take this <a href="https://www.mamutlove.com/projects/tip-off/" title="Demo" target="_blank">demo</a> as it is, a little demo where I pretend to show to you the power of this snippet, but consider your own target before copy/paste.</p>
 
 <h2>Credits</h2>
 <p>• Feel free to download, modify, break, use or destroy this plugin.</p>
